@@ -1,0 +1,88 @@
+/* body */
+body{
+font-family:'Nunito',sans-serif;
+margin:0;
+padding:30px;
+background:linear-gradient(120deg,#ff9ecf,#ff6fa5);
+}
+
+/* heading */
+h1{
+text-align:center;
+color:white;
+margin-bottom:30px;
+}
+
+/* dashboard container */
+body > div{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+/* cards */
+body > div > div{
+background:#ffffffdd;
+padding:20px;
+border-radius:14px;
+box-shadow:0px 6px 18px rgba(255,105,180,0.25);
+width:380px;
+}
+
+/* last big card (dom demo) */
+body > div > div:last-child{
+width:800px;
+}
+
+/* inputs */
+input,select,textarea{
+width:100%;
+padding:10px;
+border-radius:8px;
+border:1px solid #ffc0cb;
+margin-top:5px;
+margin-bottom:10px;
+font-size:14px;
+}
+
+/* buttons */
+button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+background:linear-gradient(90deg,#ff4f9a,#d63384);
+color:white;
+font-weight:700;
+cursor:pointer;
+margin-top:10px;
+}
+
+/* hover */
+button:hover{
+opacity:0.9;
+}
+
+/* two buttons row */
+body > div > div:nth-child(2) > div:nth-child(2){
+display:flex;
+gap:10px;
+}
+
+body > div > div:nth-child(2) > div:nth-child(2) button{
+width:50%;
+}
+
+/* empty message */
+#events-list{
+color:#a0527a;
+margin-top:20px;
+}
+
+/* dom demo box */
+body > div > div:last-child > div{
+background:#ffe6f0;
+padding:15px;
+border-radius:10px;
+}
